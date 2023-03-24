@@ -1,0 +1,72 @@
+.imgLanG {
+    height: 0.8em;
+}
+
+.imgLogo {
+    height: 85%;
+}
+
+.img-fluid{
+    margin: 12px 0 0 10px;
+    padding: 0;
+}
+
+/* Drop nav */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+    background-color: brown;
+}
+.dropdown-menu .dropdown-item{
+    color: white;
+}
+.dropdown-menu .dropdown-item:hover {
+    color: black;
+}
+.dropdown:hover .dropdown-menu {display: block;}
+
+/* Navigation */
+.container-fluid .nav-link {
+    color: white;
+    border-right: 2px solid white;
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Title */
+.card{
+    border: none;
+
+}
+.container .row .col-4 .card .card-title{
+    font-size: large;
+}
+.container .row .col-9 .card .card-title{
+    text-align: center;
+    color: brown;
+    font-size: medium;
+    font-weight: bold;
+}
+.container .row .col-9 .card .card-text{
+    text-align: center;
+    font-size: small;
+}
+
+/* Tin nổi bật */
+.a_noibat{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+.a_noibat:hover{
+    text-decoration: underline;
+    
+}
